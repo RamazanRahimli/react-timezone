@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid white;
+}
+
+/* .container entry  */
+.menuBox {
+    width: 50%;
+}
+.menuBox ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.menuBox ul li {
+    list-style-type: none;
+    color: black;
+    cursor: pointer;
+}
+.menuBox ul li:hover {
+    color: #FF003C;
+}
+.menuBox ul li  p {
+    background-color: #FF003C;
+    font-size: 0.6em;
+    margin-top: -30px;
+    margin-left: 28px;
+    text-align: center;
+    padding: 0 5px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+.menuBox .latestTag {
+    margin-top: -18px;
+}
+
+.iconBox {
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.searchBox {
+    font-size: 1.1em;
+}
+.searchBox:hover {
+    font-size: 1.1em;
+    color: #FF003C;
+}
+.userBox {
+    font-size: 1.1em;
+}
+.userBox:hover {
+    font-size: 1.1em;
+    color: #FF003C;
+}
+.shopBox {
+    font-size: 1.1em;
+}
+.shopBox:hover {
+    font-size: 1.1em;
+    color: #FF003C;
+}
+
+.containerRes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    background-color: saddlebrown;
+    display: none;
+}
+
+/* container final  */
+
+/* .container responsive media entry  */
+/* start  */
+.containerRes .topBox {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.topBox.iconBox {
+    width: 20%;
+    background-color: salmon;
+    display: flex;
+    justify-content: space-between;
+}
+.topBox.searchBox {
+    font-size: 1.1em;
+}
+.topBox.searchBox:hover {
+    font-size: 1.1em;
+    color: #FF003C;
+}
+.topBox.userBox {
+    font-size: 1.1em;
+}
+.topBox .userBox:hover {
+    font-size: 1.1em;
+    color: #FF003C;
+}
+.topBox.shopBox {
+    font-size: 1.1em;
+}
+.topBox.shopBox:hover {
+    font-size: 1.1em;
+    color: #FF003C;
+}
+
+.bottomBox {
+    width: 90%;
+    background-color: seagreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.iconMenuBox:hover .menuRepBox {
+    display: block;
+}
+.iconMenuBox {
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.iconMenuBox .hamburgerBox {
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    color: white;
+    cursor: pointer;
+}
+.iconMenuBox h2 {
+    color: white;
+    cursor: pointer;
+}
+/* responsiv menuRepBox  */
+.menuRepBox {
+width: 90%;
+}
+.menuRepBox ul {
+    display: flex;
+    flex-direction:column ;
+}
+.menuRepBox ul li {
+    list-style-type: none;
+    color: white;
+    background-color: #4C4C4C;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.menuRepBox ul li:hover {
+    color: black;
+    background-color: white;
+}
+.menuRepBox ul li  p {
+    background-color: #FF003C;
+    font-size: 0.6em;
+    margin-left: 28px;
+    text-align: center;
+    padding: 0 5px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    width: 3%;
+}
